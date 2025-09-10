@@ -1,0 +1,18 @@
+/* ---------------- tailwind */
+@import "tailwindcss";
+
+
+@utility container {  margin-inline: auto;  }
+
+
+/* ------------- variable */
+
+@theme{
+
+  /* ----------- color */
+  --color-main:#051036;
+
+
+  /* ---------- font */
+  --font-jost:"Jost", sans-serif;
+}
