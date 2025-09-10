@@ -7,7 +7,9 @@ import CommonHead from "../components/common/CommonHead";
 import Popular from "../components/Popular";
 import Destinations from "../components/Destinations";
 import Customers from "../components/Customers";
-import Inspiration from "../components/inspiration";
+import Inspiration from "../components/Inspi";
+
+
 
 const Home = () => {
   return (
@@ -20,6 +22,8 @@ const Home = () => {
       <Popular />
       <Download />
       <Inspiration />
+   
+
   
      
     </>
