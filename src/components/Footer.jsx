@@ -13,7 +13,7 @@ const Footer = () => {
   return (
     <>
     
-    <section id='footer' className='bg-[#13357B] '>
+    <footer id='footer' className='bg-[#13357B] '>
         <div className="container">
             <div id='footer-row' className='pt-[60px] pb-[150px] flex justify-center gap-[259px]'>
 
@@ -143,7 +143,7 @@ const Footer = () => {
 
             </div>
         </div>
-    </section>
+    </footer>
     
     
     
