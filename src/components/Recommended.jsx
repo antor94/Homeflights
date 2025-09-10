@@ -2,6 +2,7 @@ import React from 'react'
 import CommonHead from './common/CommonHead'
 import { Link } from 'react-router'
 import { GoArrowUpRight } from "react-icons/go";
+import RecommendedCommon from './common/RecommendedCommon';
 
 const Recommended = () => {
   return (
@@ -21,6 +22,7 @@ const Recommended = () => {
 
             </div>
             <div id='Recommended-row'>
+                <RecommendedCommon />
 
 
             </div>
