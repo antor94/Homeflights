@@ -15,7 +15,7 @@ const Footer = () => {
     
     <section id='footer' className='bg-[#13357B] '>
         <div className="container">
-            <div id='footer-row' className='pt-[60px] pb-[150px]'>
+            <div id='footer-row' className='pt-[60px] pb-[150px] flex justify-center gap-[259px]'>
 
                 {/* ------------ left-side */}
                 <div>
@@ -74,16 +74,19 @@ const Footer = () => {
 
                 {/* ----------- right-side */}
                 <div>
-                    <h2>Get Updates & More</h2>
-                    <div>
-                        <input type="text" placeholder='Your Email' />
-                        <Link to={'/'} ></Link>
+                    <h2 className='text-[16px] font-medium font-jost text-[#fff]'>Get Updates & More</h2>
+                    <div className='w-[629px] bg-[#fff] rounded-[4px] pl-[23px] mt-[11px] mb-[60px] '>
+                        <input className='w-[85%] py-[18px] border-none outline-none ' type="email" placeholder='Your Email' />
+                        <Link to={'/'} className='text-[15px] font-medium font-jost text-main underline' >Subscribe</Link>
                     </div>
+
+                    <div className='flex gap-[80px]'>
+
 
                     <div>
                         <h3 className='text-[16px] font-medium font-jost text-[#fff]'>Company</h3>
-                        <div>
-                            <ul>
+                        <div  className='mt-[22px]'>
+                            <ul className='flex flex-col gap-[15px]'>
                                 <li><Link to={'/'}  className='text-[15px] font-normal font-jost text-[#fff]'>About Us</Link></li>
                                 <li><Link to={'/'} className='text-[15px] font-normal font-jost text-[#fff]' >Careers</Link></li>
                                 <li><Link to={'/'} className='text-[15px] font-normal font-jost text-[#fff]' >Blog</Link></li>
@@ -94,6 +97,36 @@ const Footer = () => {
                             </ul>
                         </div>
                     </div>
+                    <div>
+                        <h3 className='text-[16px] font-medium font-jost text-[#fff]'>Support</h3>
+                        <div  className='mt-[22px]'>
+                            <ul className='flex flex-col gap-[15px]'>
+                                <li><Link to={'/'}  className='text-[15px] font-normal font-jost text-[#fff]'>Contact</Link></li>
+                                <li><Link to={'/'} className='text-[15px] font-normal font-jost text-[#fff]' >Legal Notice</Link></li>
+                                <li><Link to={'/'} className='text-[15px] font-normal font-jost text-[#fff]' >Privacy Policy</Link></li>
+                                <li><Link to={'/'} className='text-[15px] font-normal font-jost text-[#fff]' >Terms and Conditions</Link></li>
+                                <li><Link to={'/'} className='text-[15px] font-normal font-jost text-[#fff]' >Sitemap</Link></li>
+                        
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 className='text-[16px] font-medium font-jost text-[#fff]'>Oter Services</h3>
+                        <div  className='mt-[22px]'>
+                            <ul className='flex flex-col gap-[15px]'>
+                                <li><Link to={'/'}  className='text-[15px] font-normal font-jost text-[#fff]'>Car hire</Link></li>
+                                <li><Link to={'/'} className='text-[15px] font-normal font-jost text-[#fff]' >Activity Finder</Link></li>
+                                <li><Link to={'/'} className='text-[15px] font-normal font-jost text-[#fff]' >Tour List</Link></li>
+                                <li><Link to={'/'} className='text-[15px] font-normal font-jost text-[#fff]' >Flight finder</Link></li>
+                                <li><Link to={'/'} className='text-[15px] font-normal font-jost text-[#fff]' >Cruise Ticket</Link></li>
+                                <li><Link to={'/'} className='text-[15px] font-normal font-jost text-[#fff]' >Holiday Rental</Link></li>
+                                <li><Link to={'/'} className='text-[15px] font-normal font-jost text-[#fff]' >Travel Agents</Link></li>
+                        
+                            </ul>
+                        </div>
+                    </div>
+                    </div>
+
 
 
 
