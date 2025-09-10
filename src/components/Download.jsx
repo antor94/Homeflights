@@ -24,7 +24,6 @@ const Download = () => {
 {/* ------------- right-side */}
 <div><img src={downImg} alt="" /></div>
 
-{/* dgsdfgbdcgh */}
             </div>
         </div>
     </section>
