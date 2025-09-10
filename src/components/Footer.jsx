@@ -43,12 +43,12 @@ const Footer = () => {
                         <h3 className='text-[16px] font-medium font-jost text-[#fff]'>Follow us on social media</h3>
 
                         {/* ---------- icons */}
-                        <div className='flex gap-[37px] mt-[14px]'>
+                        <div className='flex gap-[37px] mt-[20px]'>
 
                             <div className='hover:bg-[#ffffff0d] hover:w-[40px] hover:h-[40px] rounded-[40px] flex justify-center items-center duration-[.4s]'><Link to={'/'}  className='text-[15px] text-[#fff]  '  ><FaFacebookF /></Link></div>
-                            <div className='hover:bg-[#ffffff0d] hover:w-[40px] hover:h-[40px] rounded-[40px] flex justify-center items-center duration-[.4s]'><Link to={'/'}  className='text-[15px] text-[#fff] hover:bg-[#fff] hover:w-[40px] hover:h-[40px] rounded-[40px] '  ><FaTwitter /></Link></div>
-                            <div className='hover:bg-[#ffffff0d] hover:w-[40px] hover:h-[40px] rounded-[40px] flex justify-center items-center duration-[.4s]'><Link to={'/'}  className='text-[15px] text-[#fff] hover:bg-[#fff] hover:w-[40px] hover:h-[40px] rounded-[40px] '  ><FaInstagram /></Link></div>
-                            <div className='hover:bg-[#ffffff0d] hover:w-[40px] hover:h-[40px] rounded-[40px] flex justify-center items-center duration-[.4s]'><Link to={'/'}   className='text-[15px] text-[#fff] hover:bg-[#fff] hover:w-[40px] hover:h-[40px] rounded-[40px] ' ><FaLinkedinIn /></Link></div>
+                            <div className='hover:bg-[#ffffff0d] hover:w-[40px] hover:h-[40px] rounded-[40px] flex justify-center items-center duration-[.4s]'><Link to={'/'}  className='text-[15px] text-[#fff] '  ><FaTwitter /></Link></div>
+                            <div className='hover:bg-[#ffffff0d] hover:w-[40px] hover:h-[40px] rounded-[40px] flex justify-center items-center duration-[.4s]'><Link to={'/'}  className='text-[15px]   text-[#fff]'  ><FaInstagram /></Link></div>
+                            <div className='hover:bg-[#ffffff0d] hover:w-[40px] hover:h-[40px] rounded-[40px] flex justify-center items-center duration-[.4s]'><Link to={'/'}   className='text-[15px] text-[#fff] ' ><FaLinkedinIn /></Link></div>
 
                         </div>
                     </div>
@@ -58,6 +58,42 @@ const Footer = () => {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+
+                {/* ----------- right-side */}
+                <div>
+                    <h2>Get Updates & More</h2>
+                    <div>
+                        <input type="text" placeholder='Your Email' />
+                        <Link to={'/'} ></Link>
+                    </div>
+
+                    <div>
+                        <h3 className='text-[16px] font-medium font-jost text-[#fff]'>Company</h3>
+                        <div>
+                            <ul>
+                                <li><Link to={'/'}  className='text-[15px] font-normal font-jost text-[#fff]'>About Us</Link></li>
+                                <li><Link to={'/'} className='text-[15px] font-normal font-jost text-[#fff]' >Careers</Link></li>
+                                <li><Link to={'/'} className='text-[15px] font-normal font-jost text-[#fff]' >Blog</Link></li>
+                                <li><Link to={'/'} className='text-[15px] font-normal font-jost text-[#fff]' >Press</Link></li>
+                                <li><Link to={'/'} className='text-[15px] font-normal font-jost text-[#fff]' >Gift Cards</Link></li>
+                                <li><Link to={'/'} className='text-[15px] font-normal font-jost text-[#fff]' >Magazine</Link></li>
+                        
+                            </ul>
+                        </div>
+                    </div>
 
 
 
