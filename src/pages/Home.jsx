@@ -6,6 +6,8 @@ import Download from "../components/Download";
 import CommonHead from "../components/common/CommonHead";
 import Inspiration from "../components/inspiration";
 import Popular from "../components/Popular";
+import Destinations from "../components/Destinations";
+import Customers from "../components/Customers";
 
 const Home = () => {
   return (
@@ -13,6 +15,8 @@ const Home = () => {
       <Banner />
       <Choose />
       <Recommended />
+      <Customers />
+      <Destinations />
       <Popular />
       <Download />
       <Inspiration />

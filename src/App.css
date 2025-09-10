@@ -13,14 +13,21 @@
 
 }
 
-
-.slick-next{
-
-    position: absolute;
-    top: -19px;
+.slick-track {
+    left: 172px !important;
 
 }
 
-.slick-prev{
 
+.slick-next {
+    position: absolute;
+    top: 160px;
+    left: 1580px;
+}
+
+.slick-prev {
+    position: absolute;
+    top: 165px;
+    left: 150px;
+    z-index: 140;
 }

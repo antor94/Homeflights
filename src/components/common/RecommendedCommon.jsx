@@ -49,9 +49,9 @@ const RecommendedCommon = () => {
                         <p className='text-[15px] font-normal font-jost text-[#697488]'>16 deals</p>
                  
                     </div>
-                        <div className='w-[159px] bg-[#3554d115]'>
+                        <div className='w-[159px]  bg-[#3554d115]'>
 
-            <Link to={'/'} className=' rounded-[4px] py-[14px] flex justify-center items-center gap-[13px]  text-[15px] font-medium font-jost text-[#3554D1]' >More <GoArrowUpRight /></Link>
+            <Link to={'/'} className=' rounded-[4px] hover:bg-[#3554D1] hover:text-white duration-[.3s] py-[14px] flex justify-center items-center gap-[13px]  text-[15px] font-medium font-jost text-[#3554D1]' >More <GoArrowUpRight /></Link>
             </div>
 
                 </div>
