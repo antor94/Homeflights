@@ -9,8 +9,6 @@ import Destinations from "../components/Destinations";
 import Customers from "../components/Customers";
 import Inspiration from "../components/Inspi";
 
-
-
 const Home = () => {
   return (
     <>

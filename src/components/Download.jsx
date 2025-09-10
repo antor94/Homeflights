@@ -21,10 +21,10 @@ const Download = () => {
                     <img src={google} alt="" />
                     </div>
                 </div>
-
 {/* ------------- right-side */}
 <div><img src={downImg} alt="" /></div>
 
+{/* dgsdfgbdcgh */}
             </div>
         </div>
     </section>
