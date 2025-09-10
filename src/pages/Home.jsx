@@ -4,10 +4,10 @@ import Choose from "../components/Choose";
 import Recommended from "../components/Recommended";
 import Download from "../components/Download";
 import CommonHead from "../components/common/CommonHead";
-import Inspiration from "../components/inspiration";
 import Popular from "../components/Popular";
 import Destinations from "../components/Destinations";
 import Customers from "../components/Customers";
+import Inspiration from "../components/inspiration";
 
 const Home = () => {
   return (
@@ -20,6 +20,8 @@ const Home = () => {
       <Popular />
       <Download />
       <Inspiration />
+  
+     
     </>
   );
 };
