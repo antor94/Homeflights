@@ -16,12 +16,12 @@ const RecommendedCommon = () => {
                 <div className='flex'>
                 <div>
                     <p className='text-[16px] font-medium font-jost text-main'>14:00</p>
-                    <p>SAW</p>
+                    <p className='text-[15px] font-normal font-jost text-[#697488]'>SAW</p>
                 </div>
                 <div className='pl-[25px] pr-[20px]'><img src={timer} alt="" /></div>
                    <div>
                     <p className='text-[16px] font-medium font-jost text-main'>14:00</p>
-                    <p>SAW</p>
+                    <p className='text-[15px] font-normal font-jost text-[#697488]'>SAW</p>
                 </div>
             </div>
                 </div>
@@ -31,12 +31,12 @@ const RecommendedCommon = () => {
                 <div className='flex'>
                 <div>
                     <p className='text-[16px] font-medium font-jost text-main'>14:00</p>
-                    <p>SAW</p>
+                    <p className='text-[15px] font-normal font-jost text-[#697488]'>SAW</p>
                 </div>
                 <div className='pl-[25px] pr-[20px]'><img src={timer} alt="" /></div>
                    <div>
                     <p className='text-[16px] font-medium font-jost text-main'>14:00</p>
-                    <p>SAW</p>
+                    <p className='text-[15px] font-normal font-jost text-[#697488]'>SAW</p>
                 </div>
             </div>
                 </div>
@@ -46,7 +46,7 @@ const RecommendedCommon = () => {
 
               
                         <h2 className='text-[18px] font-medium font-jost text-main'>US$934</h2>
-                        <p>16 deals</p>
+                        <p className='text-[15px] font-normal font-jost text-[#697488]'>16 deals</p>
                  
                     </div>
                         <div className='w-[159px] bg-[#3554d115]'>

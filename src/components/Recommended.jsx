@@ -9,7 +9,7 @@ const Recommended = () => {
     <>
 
 
-    <section id='Recommended'>
+    <section id='Recommended' className='pb-[120px]'>
         <div className="container">
             <div className='flex justify-between items-center'>
             <CommonHead comH2={'Recommended Flights'} comP={'Interdum et malesuada fames ac ante ipsum'} />
@@ -22,8 +22,14 @@ const Recommended = () => {
 
             </div>
             <div id='Recommended-row'>
+                <div  className='flex flex-col gap-[30px] mt-[40px]'>
+
+                <RecommendedCommon />
+                <RecommendedCommon />
+                <RecommendedCommon />
                 <RecommendedCommon />
 
+                </div>
 
             </div>
         </div>
