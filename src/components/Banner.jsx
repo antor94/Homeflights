@@ -9,23 +9,19 @@ const Banner = () => {
     <>
     
 
-    <section style={{ background: `URL(${bannerBg})`,  backgroundRepeat: `no-repeat`,  backgroundSize: `cover`, }}  id='banner' className='pb-[555px] relative'>
+    <section id='banner' className=' pt-[102px] pb-[330px]  relative'>
+  <div   style={{
+          background: `URL(${bannerBg})`,
+          backgroundRepeat: `no-repeat`,
+          backgroundSize: `cover`,
+        }} className="w-full h-full z-10 absolute top-0 left-0">
 
-
-   
-
-
-
-
+        </div>
         <div className="container">
-
-
-
-
-            <div id='banner-row'>
-
-
+            <div id='banner-row' className=''>
               {/* ------------ left-side */}
+              <div className='pt-[280px]'>
+
               <h1 className='text-[60px] font-jost font-semibold text-main'>Where do You Want To <span className='text-[#13357B]'>Fly</span></h1>
               <p className='text-[16px] font-normal font-jost text-[#697488]'>Discover amzaing places at exclusive deals</p>
 
@@ -37,7 +33,8 @@ const Banner = () => {
           
               </div>
 
-                   <div className='w-[1144px] bg-[#fff] rounded-[4px] flex shadow-[0px_4px_30px_0px_rgba(31,_38,_135,_0.15)]'>
+              </div>
+                   <div className='w-[1144px] absolute top-[580px] z-300 left-[172px] bg-[#fff] rounded-[4px] flex shadow-[0px_4px_30px_0px_rgba(31,_38,_135,_0.15)]'>
 
         <div className='flex mt-[27px] mb-[23px] px-[20px]'>
 
@@ -77,7 +74,7 @@ const Banner = () => {
           </div>
 
 
-         <button className='w-[148px] text-[15px] font-medium font-jost text-[#fff] flex justify-center rounded-[4px] items-center gap-[10px] bg-[#13357B]'><LuSearch /> Search</button>
+         <button className='w-[148px] z-20 text-[15px] font-medium font-jost text-[#fff] flex justify-center rounded-[4px] items-center gap-[10px] bg-[#13357B]'><LuSearch /> Search</button>
  
 
 

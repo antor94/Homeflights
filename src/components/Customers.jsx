@@ -5,7 +5,7 @@ const Customers = () => {
   return (
     <>
     
-    <section id='Customers' className='bg-[#13357B] mb-[120px]'>
+    <section id='Customers' className='bg-[#13357B] '>
         <div className="container">
             <div id='Customers-row' className='py-[120px] flex justify-center gap-[140px]' >
 
@@ -54,7 +54,7 @@ const Customers = () => {
                             <p className='text-[15px] font-normal font-jost text-white'>UX / UI Designer</p>
                         </div>
                     </div>
-                    <div className='w-[633px]'><p className='text-[18px] font-medium font-jost text-white'>The place is in a great location in Gumbet. The area is safe and beautiful. The apartment was comfortable and the host was kind and responsive to our requests.</p></div>
+                    <div className='w-[633px] mt-[30px ]'><p className='text-[18px] font-medium font-jost text-white'>The place is in a great location in Gumbet. The area is safe and beautiful. The apartment was comfortable and the host was kind and responsive to our requests.</p></div>
                 </div>
 
 

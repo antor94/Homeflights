@@ -15,8 +15,8 @@ const Home = () => {
       <Banner />
       <Choose />
       <Recommended />
-      <Customers />
       <Destinations />
+      <Customers />
       <Popular />
       <Download />
       <Inspiration />

@@ -11,22 +11,24 @@ import { IoIosArrowBack } from "react-icons/io";
 
 const Popular = () => {
 
-  const settings = {
+ const settings = {
     dots: false,
+    arrows:false,
     infinite: true,
-    speed: 500,
     slidesToShow: 4,
-    slidesToScroll: 1, 
-       nextArrow: <IoIosArrowBack />,
-    prevArrow: <IoIosArrowForward />
-  }
+    slidesToScroll: 1,
+    autoplay: true,
+    speed: 2000,
+    autoplaySpeed: 2000,
+    cssEase: "linear"
+  };
 
 
 
   return (
     <>
 
-    <section id='popular' className='pb-[120px]'>
+    <section id='popular' className='pb-[120px] pt-[120px]'>
       <div className="container">
           <div className="flex justify-between pb-[40px] items-center">
             <CommonHead
@@ -44,27 +46,29 @@ const Popular = () => {
             </div>
           </div>
         <div id='popular-row'>
-              <div className="slider-container">
+
+             <div className="slider-container">
       <Slider {...settings}>
         <div>
-             <PopularCommon poH2={'Istanbul - New York'} />
+              <PopularCommon poH2={'Istanbul - New York'} />
+        </div>
+        <div>
+                    <PopularCommon poH2={'Istanbul - New York'} />
+        </div>
+        <div>
+                <PopularCommon poH2={'Istanbul - New York'} />
         </div>
         <div>
               <PopularCommon poH2={'Istanbul - New York'} />
         </div>
         <div>
-       <PopularCommon poH2={'Istanbul - New York'} />
+             <PopularCommon poH2={'Istanbul - New York'} />
         </div>
         <div>
-            <PopularCommon poH2={'Istanbul - New York'} />
+                  <PopularCommon poH2={'Istanbul - New York'} />
         </div>
-        
-        
-
       </Slider>
     </div>
-
-
         </div>
       </div>
     </section>

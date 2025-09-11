@@ -7,9 +7,9 @@ const Navbar = () => {
     <>
 
 
-    <nav id='navbar' className='pt-[30px]'>
+    <nav id='navbar' className='pt-[30px]  absolute top-0 left-0 w-full '>
         <div className="container">
-            <div id='navbar-row' className='flex justify-between items-center'>
+            <div id='navbar-row' className='flex z-50 justify-between items-center'>
 
                 {/* ---------------- logo */}
                 <Link to={'/'} ><img src={logo} alt="main-logo" /></Link>
