@@ -1,6 +1,8 @@
 import React from 'react'
 import CommonHead from './common/CommonHead'
-import InspirationCommon from './common/inspirationCommon'
+import InspirationCommon from './common/InsPiCommon'
+
+
 
 const Inspiration = () => {
   return (
@@ -14,9 +16,9 @@ const Inspiration = () => {
 
             </div>
             <div id='inspiration-row' className='flex justify-center gap-[30px] mt-[40px]'>
-                <InspirationCommon insH2={'10 European ski destinations you should visit this winter'} insP={''} />
-                <InspirationCommon insH2={'Booking travel during Corona: good advice in an uncertain time'} />
-                <InspirationCommon insH2={'Where can I go? 5 amazing countries that are open right now'} />
+              <InspirationCommon insH2={'10 European ski destinations you should visit this winter'} />
+              <InspirationCommon insH2={'Booking travel during Corona: good advice in an uncertain time'} />
+              <InspirationCommon insH2={'Where can I go? 5 amazing countries that are open right now'} />
 
             </div>
         </div>
